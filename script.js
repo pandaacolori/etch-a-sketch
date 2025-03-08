@@ -14,6 +14,12 @@ for (let i = 0; i < 16 * 16; i++) {
 const btn = document.querySelector(".resetbtn");
     btn.addEventListener("click", () => {
       const userInput = prompt("How many squares should the new grid have? (MAX 100)");
-    
+      const numberInput = parseFloat(userInput);
+        if (isNaN(numberInput)) {
+        console.log("That's not a valid number.");
+  }     else {
+        console.log("User entered the number:", numberInput);
+  }
+
   })
 
