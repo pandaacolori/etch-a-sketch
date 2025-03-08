@@ -11,5 +11,9 @@ for (let i = 0; i < 16 * 16; i++) {
 });
 })
 }
-
+const btn = document.querySelector(".resetbtn");
+    btn.addEventListener("click", () => {
+      const userInput = prompt("Please insert the number of squares for the new grid:");
+    
+  })
 
