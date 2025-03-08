@@ -13,7 +13,7 @@ for (let i = 0; i < 16 * 16; i++) {
 }
 const btn = document.querySelector(".resetbtn");
     btn.addEventListener("click", () => {
-      const userInput = prompt("Please insert the number of squares for the new grid:");
+      const userInput = prompt("How many squares should the new grid have? (MAX 100)");
     
   })
 
